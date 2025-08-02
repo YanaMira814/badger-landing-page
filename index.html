@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барсуки - это круто! 🦡</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Главный заголовок -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">
+                <span class="badge-icon">🦡</span>
+                Ты - барсук? Тогда тебе сюда!
+            </h1>
+            <p class="hero-subtitle">Узнай свою истинную сущность</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('facts')">
+                    <i class="fas fa-star"></i> Узнать факты
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('gallery')">
+                    <i class="fas fa-images"></i> Галерея
+                </button>
+            </div>
+        </div>
+        <div class="hero-decoration">
+            <div class="badge-float">🦡</div>
+            <div class="badge-float">🌿</div>
+            <div class="badge-float">🕳️</div>
+        </div>
+    </header>
+
+    <!-- Что такое барсук -->
+    <section class="section what-is-badge">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-question-circle"></i>
+                Что такое барсук?
+            </h2>
+            <div class="content-grid">
+                <div class="content-text">
+                    <p>Барсук — это удивительное животное из семейства куньих, которое обитает в лесах и степях. Эти забавные создания известны своими полосатыми мордочками и любовью к рытью нор!</p>
+                    <p>Барсуки — настоящие архитекторы подземного мира. Они создают целые города под землей с множеством комнат, коридоров и даже вентиляционных шахт!</p>
+                    <div class="fun-fact-box">
+                        <i class="fas fa-lightbulb"></i>
+                        <strong>Знаешь ли ты?</strong> Барсуки могут вырыть нору глубиной до 3 метров!
+                    </div>
+                </div>
+                <div class="content-image">
+                    <img src="images/badger-warrior.jpg" alt="Барсук-воин в доспехах" class="hero-badger-image">
+                    <div class="image-caption">Барсук-воин - символ силы и упрямства! ⚔️🦡</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Факты о барсуках -->
+    <section id="facts" class="section facts-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-star"></i>
+                Удивительные факты о барсуках
+            </h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-icon">🕳️</div>
+                    <h3>Подземные архитекторы</h3>
+                    <p>Барсуки могут вырыть нору глубиной до 3 метров с множеством комнат!</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">⏰</div>
+                    <h3>Долгожители</h3>
+                    <p>Барсуки могут жить до 14 лет в дикой природе!</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">🏊</div>
+                    <h3>Отличные пловцы</h3>
+                    <p>Барсуки — отличные ныряльщики и могут плавать на большие расстояния!</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">👃</div>
+                    <h3>Острый нюх</h3>
+                    <p>У барсуков отличное обоняние — они могут найти еду под землей!</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">🌙</div>
+                    <h3>Ночные охотники</h3>
+                    <p>Барсуки ведут ночной образ жизни и выходят на охоту в темноте!</p>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Семейные ценности</h3>
+                    <p>Барсуки живут семьями и заботятся о своих детенышах до миллиарда лет!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Барсук в культуре -->
+    <section class="section culture-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-book"></i>
+                Барсук в культуре
+            </h2>
+            <div class="culture-content">
+                <div class="culture-text">
+                    <p>Барсуки стали героями множества сказок и легенд! В народных преданиях они символизируют упрямство, хитрость и мудрость.</p>
+                    <p>Помнишь Барсука из "Винни-пуха"? Или мистера Барсука из "Ветра в ивах"? Эти персонажи показывают, что барсуки — настоящие философы животного мира!</p>
+                </div>
+                <div class="culture-icons">
+                    <div class="culture-icon">📚</div>
+                    <div class="culture-icon">🎬</div>
+                    <div class="culture-icon">🎨</div>
+                    <div class="culture-icon">🏛️</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Барсук и природа -->
+    <section class="section nature-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-leaf"></i>
+                Барсук и природа
+            </h2>
+            <div class="nature-content">
+                <div class="nature-info">
+                    <h3>Экологическая роль барсуков</h3>
+                    <ul class="nature-list">
+                        <li>🔄 Контролируют популяции грызунов</li>
+                        <li>🌱 Разрыхляют почву своими норами</li>
+                        <li>🌿 Распространяют семена растений</li>
+                        <li>🏠 Создают убежища для других животных</li>
+                    </ul>
+                </div>
+                <div class="nature-chart">
+                    <div class="chart-item">
+                        <div class="chart-bar" style="height: 80%"></div>
+                        <span>Польза для экосистемы</span>
+                    </div>
+                    <div class="chart-item">
+                        <div class="chart-bar chart-bar-highlight" style="height: 95%"></div>
+                        <span>Контроль вредителей</span>
+                    </div>
+                    <div class="chart-item">
+                        <div class="chart-bar" style="height: 70%"></div>
+                        <span>Улучшение почвы</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ржомба -->
+    <section class="section funny-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-laugh"></i>
+                Ржомба
+            </h2>
+            <div class="jokes-container">
+                <div class="joke-card">
+                    <div class="joke-icon">😄</div>
+                    <p class="joke-text">Барсук умеет считать только до ПИСЯТ</p>
+                </div>
+                <div class="joke-card">
+                    <div class="joke-icon">🤣</div>
+                    <p class="joke-text">Иногда эти полосатики ведут себя как БАСУЧКИ</p>
+                </div>
+                <div class="joke-card">
+                    <div class="joke-icon">😆</div>
+                    <p class="joke-text">Барсуслик - это уже что-то на фронтендерском</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-images"></i>
+                Галерея барсуков
+            </h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/1.jpg" alt="Барсук в галерее" class="gallery-image">
+                    <div class="gallery-caption">Барсук - удивительное создание! 🦡</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/2.jpg" alt="Барсук в природе" class="gallery-image">
+                    <div class="gallery-caption">Барсук в своей стихии 🌿</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/3.jpg" alt="Барсук исследует" class="gallery-image">
+                    <div class="gallery-caption">Барсук исследует мир 🔍</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/4.jpg" alt="Барсук отдыхает" class="gallery-image">
+                    <div class="gallery-caption">Барсук на отдыхе 😴</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/5.jpg" alt="Барсук в действии" class="gallery-image">
+                    <div class="gallery-caption">Барсук в действии! ⚡</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/6.jpg" alt="Барсук позирует" class="gallery-image">
+                    <div class="gallery-caption">Барсук позирует для фото 📸</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контактная информация -->
+    <section class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">
+                <i class="fas fa-envelope"></i>
+                Остались вопросы о барсуках?
+            </h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="badgeForm">
+                        <div class="form-group">
+                            <label for="name">Твое имя:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Расскажи, что тебя интересует о барсуках!"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                Подписаться на новости о барсуках 🦡
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Отправить
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Хочешь узнать больше?</h3>
+                    <p>Подпишись на нашу рассылку и получай самые интересные факты о барсуках каждую неделю!</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>🦡 Барсуки - это круто!</h3>
+                    <p>Создано с любовью к природе и барсукам</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Полезные ссылки</h4>
+                    <ul>
+                        <li><a href="#">О барсуках</a></li>
+                        <li><a href="#">Защита природы</a></li>
+                        <li><a href="#">Образовательные ресурсы</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <p>Email: solnechno814@gmail.ru</p>
+                    <p>Телефон: +7 (999) 123-45-67</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Барсуки - это круто! Все права защищены. 🦡</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
